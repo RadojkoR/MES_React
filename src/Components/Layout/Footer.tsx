@@ -7,12 +7,12 @@ export default function Footer() {
       <ul className="list-group list-group-horizontal fs-1 justify-content-center align-items-center">
         <li className="footerHrLine col-5"></li>
         <li className="footerSocIconLi list-group-item bg-transparent border-0 ">
-          <a className="text-light" href="https://www.facebook.com/" target="_blank">
+          <a className="text-light" href="https://www.facebook.com/" >
             <FaFacebookF />
           </a>
         </li>
         <li className="footerSocIconLi list-group-item bg-transparent border-0">
-          <a className="text-light" href="https://www.instagram.com/" target="_blank">
+          <a className="text-light" href="https://www.instagram.com/">
             <FaInstagram />
           </a>
         </li>
