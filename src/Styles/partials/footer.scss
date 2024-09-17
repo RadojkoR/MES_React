@@ -1,0 +1,17 @@
+@use './variables.scss';
+
+.mainFooter {
+    background-color: variables.$footerBgColor;
+    .footerHrLine {
+        list-style-type: none !important;
+        border: 2px solid #fb8122;
+    }
+
+    .footerSocIconLi {
+
+        a {
+            text-decoration: none;
+            color: #f9f9f9 !important;
+        }
+    }
+}

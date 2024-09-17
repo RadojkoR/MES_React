@@ -1,6 +1,8 @@
 @use './variables.scss';
 
-
+.uslugeHome {
+    background-color: variables.$secondaryBgColor;
+}
 .uslugeHomeCard {
     width: 350px;
 

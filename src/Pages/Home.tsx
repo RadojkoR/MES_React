@@ -1,4 +1,5 @@
-import { Header, UslugeHome} from "../Components/Layout";
+import { Header} from "../Components/Layout";
+import { OnamaHome, UslugeHome } from "../Components/HomeComponents";
 
 
 export default function Home() {
@@ -9,12 +10,10 @@ export default function Home() {
             bgVideoClassName="headerVideoHome"
             headerContainerClass ="headerContainerHome"
           />
-          <section className="container">
+          <section className="container-fluid p-0">
             <UslugeHome />
+            <OnamaHome />
           </section>
-        
-
-        
       </>
     );
 };

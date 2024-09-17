@@ -1,7 +1,7 @@
 import Nav from "./Nav";
 import Header from "./Header";
-import UslugeHome from "./UslugeHome";
+import Footer from "./Footer";
 
 
 
-export {Nav, Header, UslugeHome}
+export {Nav, Header, Footer}

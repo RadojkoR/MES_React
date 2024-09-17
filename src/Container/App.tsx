@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Nav } from "../Components/Layout";
+import { Footer, Nav } from "../Components/Layout";
 import {Home, Kontakt, Usluge} from "../Pages";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <Route path="/kontakt" element={<Kontakt />}></Route>
         </Routes>
       </div>
-      
+      <Footer />
     </main>
   );
 }
