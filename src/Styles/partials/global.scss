@@ -1,0 +1,10 @@
+@use './variables.scss';
+
+// .mainContainer {
+//     font-family: variables.$primary-font!important;
+// }
+
+body {
+    background-color: variables.$bodyBgColor;
+    color: variables.$bodyTextColor;
+}

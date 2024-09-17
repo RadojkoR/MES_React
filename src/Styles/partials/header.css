@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.headerContainerHome {
+  width: 100%;
+  height: 100vh;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 65vh;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 65vh;
+}
+
+.headerVideoHome {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+  z-index: -1;
+}
+
+.headerVideoUsluge {
+  width: 100%;
+  height: 65%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+  z-index: -1;
+}
+
+.headerVideoKontakt {
+  width: 100%;
+  height: 65%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+  z-index: -1;
+}
+
+.bgHeaderHome {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../Assets/imgHeaderHome.jpg");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  opacity: 0.9;
+  position: relative;
+}
+
+.bgHeaderUsluge {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../../Assets/imgHeaderUsluge.webp");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  opacity: 0.9;
+  position: relative;
+}
+
+.bgHeaderKontakt {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../../Assets/imgHeaderUsluge.webp");
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  opacity: 0.9;
+  position: relative;
+}/*# sourceMappingURL=header.css.map */
