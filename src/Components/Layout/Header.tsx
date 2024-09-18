@@ -1,4 +1,4 @@
-import videoFile from '../../Assets/videos/file.mp4';
+// import videoFile from '../../Assets/videos/file.mp4';
 // import imgHeader from '../../Assets/imgHeader.jpg';
 
 interface HeaderProps {
@@ -10,13 +10,13 @@ export default function Header({ className, bgVideoClassName, headerContainerCla
 
   return (
     <header className={headerContainerClass}>
-      <video
+      {/* <video
         src={videoFile}
         className={`${bgVideoClassName} position-absolute top-0 left-0`}
         autoPlay
         loop
         muted
-      />
+      /> */}
       <section className={`${className} position-absolute top-0 left-0`}>
         {/* <div className="securityCameraImg position-absolute top-0"></div> */}
         {/* <img src={imgHeader} alt="" /> */}
