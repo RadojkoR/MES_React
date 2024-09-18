@@ -24,7 +24,7 @@
         text-transform: uppercase;
 
         .menuLink:hover {
-            color: #1586B8 !important;
+            color: variables.$hoverColor !important;
         }
 
         .active {
