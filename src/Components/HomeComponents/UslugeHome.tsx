@@ -20,11 +20,12 @@ export default function UslugeHome() {
               <Icon className="elInstalationIcon" />
               <div className="uslugeHomeCardBody">
                 <h4 className="text-center mb-4">Tehnicka Zastita</h4>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Sapiente, non deleniti alias sit vero culpa magnam vel
-                  voluptas facere neque.
-                </p>
+                <ul className="list-group">
+                  <li className="list-group">- Alarmni sistemi</li>
+                  <li className="list-group">- Video nadzor, kontrola pristupa</li>
+                  <li className="list-group">- Interfoni, video interfon</li>
+                  <li className="list-group">- Daljinsko otvaranje vrata i kapija</li>
+                </ul>
               </div>
             </article>
             <article className="uslugeHomeCard col-4 d-flex flex-column  justify-content-center align-items-center">

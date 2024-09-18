@@ -6,13 +6,11 @@ function App() {
   return (
     <main className="mainContainer">
       <Nav />
-      <div>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/usluge" element={<Usluge />}></Route>
           <Route path="/kontakt" element={<Kontakt />}></Route>
         </Routes>
-      </div>
       <Footer />
     </main>
   );

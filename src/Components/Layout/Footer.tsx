@@ -17,8 +17,7 @@ export default function Footer() {
       </ul>
       <section className="d-flex justify-content-center mt-5">
         <p>Copyright © 2024 All Rights Reserved M E S &emsp; | &emsp;</p>
-        {/* <a className="" href="https://radoyko.com">Radojko.com</a> */}
-        <Link to="https://radoyko.com" target="_blank">Radojko.com</Link>
+        <p>Powered by &nbsp;<Link className="powerdBy" to="https://radoyko.com" target="_blank">Radoyko.com</Link></p>
       </section>
     </footer>
   );

@@ -1,12 +1,42 @@
 @use './variables.scss';
 
-.logo {
-    width: 190px;
+.mainNav {
+    background-color: variables.$navBgColor;
+    top: 0;
+    transition: transform 0.3s ease;
+
+    .logoContainer {
+        // background-color: #ffffff58;
+        width: 250px;
+        height: 90px;
+        border-radius: 10px;
+        .logo {
+            width: 190px;
+        }
+    }
+
+    
+
+    .menuItem {
+        font-size: 1.5rem !important;
+        font-weight: 600;
+        padding: 20px 30px;
+        text-transform: uppercase;
+
+        .menuLink:hover {
+            color: #1586B8 !important;
+        }
+
+        .active {
+            color: variables.$activeClass!important;
+        }
+    }
 }
 
-.menuItem {
-    font-size: 1.5rem!important;
-    font-weight: 600;
-    padding: 20px 30px;
-    text-transform: uppercase;
-}
+ .mainNav.hide {
+     transform: translateY(-100%);
+ }
+
+ .mainNav.show {
+     transform: translateY(0);
+ }
