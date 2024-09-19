@@ -49,7 +49,7 @@ export default function Nav() {
 
     <nav className="mainNav navbar navbar-expand-lg fixed-top">
       <div className="container-fluid d-flex justify-content-between align-items-center">
-        <div className="logoContainer d-flex align-items-center justify-content-center">
+        <div className="logoContainer d-flex align-items-center ms-sm-5">
           <NavLink to="/">
             <img className="logo" src={logo} alt="MES Logo" />
           </NavLink>

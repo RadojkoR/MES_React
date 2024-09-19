@@ -6,8 +6,8 @@ export default function Footer() {
     <footer className="mainFooter mt-5 pt-2 pb-3">
       <h6 className="text-center mt-5 fs-1">Prati nas na drustvenim mrezama</h6>
       <ul className="list-group list-group-horizontal fs-1 justify-content-center align-items-center">
-        <li className="footerHrLine col-5"></li>
-        <li className="footerSocIconLi list-group-item bg-transparent border-0 ">
+        <li className="footerHrLine col-4 col-sm-5"></li>
+        <li className="footerSocIconLi list-group-item bg-transparent border-0">
           <Link
             className="text-light"
             to="https://m.facebook.com/gradimir.jovicic.9"
@@ -25,7 +25,7 @@ export default function Footer() {
             <FaInstagram />
           </Link>
         </li>
-        <li className="footerHrLine col-5"></li>
+        <li className="footerHrLine col-4 col-sm-5" ></li>
       </ul>
       <section className="row justify-content-between align-items-center py-5 flex-column flex-md-row">
         <article className="col-md-6 d-flex flex-column justify-content-center align-items-center mb-5">
