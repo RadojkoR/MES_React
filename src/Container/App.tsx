@@ -4,13 +4,13 @@ import {Home, Kontakt, Usluge} from "../Pages";
 
 function App() {
   return (
-    <main className="mainContainer">
+    <main className="mainContainer overflow-hidden">
       <Nav />
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/usluge" element={<Usluge />}></Route>
-          <Route path="/kontakt" element={<Kontakt />}></Route>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/usluge" element={<Usluge />}></Route>
+        <Route path="/kontakt" element={<Kontakt />}></Route>
+      </Routes>
       <Footer />
     </main>
   );
