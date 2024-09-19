@@ -31,6 +31,16 @@
             color: variables.$activeClass!important;
         }
     }
+
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .hamburgerIcon {
+        color: variables.$bodyTextColor !important;
+
+    }
 }
 
  .mainNav.hide {
@@ -40,3 +50,4 @@
  .mainNav.show {
      transform: translateY(0);
  }
+ 
