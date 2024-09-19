@@ -13,4 +13,24 @@
          stroke-width: 2px;
      }
 }
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 1200px) {
+    .uslugeHomeCard {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .uslugeHomeCard {
+        width: 290px;
+
+        .uslugeHomeCardBody {
+            .uslugeHomeCardBodyTxt {
+                font-size: 1rem;
+            }
+        }
+    }
+}
    

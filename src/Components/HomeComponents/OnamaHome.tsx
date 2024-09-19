@@ -4,12 +4,12 @@ export default function OnamaHome() {
   return (
     <article className="oNamaHome w-100">
       <div className="container">
-        <section className="onamaHome row">
-          <div className="col-5">
+        <section className="onamaHome row align-items-center flex-column-reverse flex-lg-row">
+          <div className=" col-lg-4 col-xl-5">
             <img className="w-100" src={ONamaImg} alt="" />
           </div>
-          <div className="col-7">
-            <h2 className="text-center mb-5 fs-1">O nama</h2>
+          <div className="col-lg-8 col-xl-7 mb-5">
+            <h2 className="text-center mb-xl-5 fs-1">O nama</h2>
             <p className="p-3 pb-0 fs-4">
               Sami počeci firme MES se vezuju za početak 80-tih godina kada je
               sve počelo od malog servisa električnih kućnih aparata. U tom
