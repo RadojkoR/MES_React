@@ -1,0 +1,23 @@
+@use './variables.scss';
+
+
+.uslugeTehZastita {
+    background-color: variables.$secondaryBgColor;
+    .tehZastitaHeader {
+        .tehZastitaIcon {
+            width: 120px;
+            height: 120px;
+            color: white;
+            stroke-width: 2px;
+        }
+    }
+
+    .alarmniSistemiCard {
+        background-color: variables.$tertiaryBgColor;
+        color: variables.$secondaryTextColor;
+        // border-radius: 20px 20px 0 0;
+        position: sticky;
+        top: 200px;
+
+    }
+}

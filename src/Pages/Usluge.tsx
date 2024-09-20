@@ -1,4 +1,5 @@
 import { Header } from "../Components/Layout";
+import { TehnickaZastita } from "../Components/UslugeComponents";
 
 
 export default function Usluge() {
@@ -9,7 +10,7 @@ export default function Usluge() {
           bgVideoClassName="headerVideoUsluge"
           headerContainerClass="headerContainer"
         />
-        <h1>Usluge</h1>
+        <TehnickaZastita />
       </>
     );
 }

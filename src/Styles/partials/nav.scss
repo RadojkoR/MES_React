@@ -6,7 +6,6 @@
     transition: transform 0.3s ease;
 
     .logoContainer {
-        // background-color: #ffffff58;
         width: 250px;
         height: 90px;
         border-radius: 10px;
@@ -51,3 +50,14 @@
      transform: translateY(0);
  }
  
+
+ @media only screen and (max-width: 576px) {
+    .mainNav {
+        .logoContainer {
+            width: 160px;
+            .logo {
+                width: 100%;
+            }
+        }
+    }
+ }
