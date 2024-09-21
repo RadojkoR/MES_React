@@ -1,0 +1,10 @@
+@use './variables.scss';
+
+.alarmniSistemiCard {
+    background-color: variables.$tertiaryBgColor;
+    color: variables.$secondaryTextColor;
+    position: sticky !important;
+    top: 110px !important;
+    z-index: -1;
+
+}

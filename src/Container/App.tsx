@@ -4,7 +4,7 @@ import {Home, Kontakt, Usluge, Projekti} from "../Pages";
 
 function App() {
   return (
-    <main className="mainContainer overflow-hidden">
+    <main className="mainContainer">
       <Nav />
       <Routes>
         <Route path="/" element={<Home />}></Route>
