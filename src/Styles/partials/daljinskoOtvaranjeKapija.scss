@@ -1,0 +1,10 @@
+@use './variables.scss';
+
+.daljinskoOtvaranjeCard {
+    background-color: variables.$senaryBgColor;
+    color: variables.$secondaryTextColor;
+    // position: sticky !important;
+    // top: 110px !important;
+    z-index: -1;
+
+}

@@ -3,10 +3,10 @@ import {ReactComponent as IconVideoNadzor} from '../../Assets/icons/videoNadzor.
 export default function VideoNadzor() {
 
     return (
-      <article className="videoNadzorCard container d-flex flex-column justify-content-center align-items-center mt-5">
+      <article className="videoNadzorCard container-md d-flex flex-column justify-content-center align-items-center">
         <h5 className="fs-1 mt-5 ">Video Nadzor i Kontrola Pristupa</h5>
         <div className="videoNadzorCardBody row align-items-center">
-          <section className="fs-4 col-8 p-5">
+          <section className="fs-4 col-lg-9 col-xl-8 p-5">
             <p>
               Video nadzor i kontrola pristupa pružaju efikasnu zaštitu i
               potpunu kontrolu nad sigurnošću vašeg objekta. Zahvaljujući
@@ -30,7 +30,7 @@ export default function VideoNadzor() {
             </p>
           </section>
 
-          <IconVideoNadzor className="col-4" />
+          <IconVideoNadzor className="col-lg-3 col-xl-4 d-none d-md-block" />
         </div>
       </article>
     );

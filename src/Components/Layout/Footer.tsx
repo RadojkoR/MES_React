@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="mainFooter mt-5 pt-2 pb-3">
+    <footer className="mainFooter pt-2 pb-3 overflow-hidden">
       <h6 className="text-center mt-5 fs-1">Prati nas na drustvenim mrezama</h6>
       <ul className="list-group list-group-horizontal fs-1 justify-content-center align-items-center">
         <li className="footerHrLine col-4 col-sm-5"></li>
@@ -25,20 +25,32 @@ export default function Footer() {
             <FaInstagram />
           </Link>
         </li>
-        <li className="footerHrLine col-4 col-sm-5" ></li>
+        <li className="footerHrLine col-4 col-sm-5"></li>
       </ul>
       <section className="row justify-content-between align-items-center py-5 flex-column flex-md-row">
         <article className="col-md-6 d-flex flex-column justify-content-center align-items-center mb-5">
           <h6 className="fs-3">Kontakt</h6>
-          <Link className="footerLink fs-5 mb-3" to="tel:+38132332216">Tel/Fax: +38132332216</Link>
-          <Link className="footerLink fs-5" to="tel:+381641837109">Tel/Fax: +381641837109</Link>
+          <Link className="footerLink fs-5 mb-3" to="tel:+38132332216">
+            Tel/Fax: +38132332216
+          </Link>
+          <Link className="footerLink fs-5" to="tel:+381641837109">
+            Tel/Fax: +381641837109
+          </Link>
         </article>
         <article className="col-md-6 d-flex flex-column justify-content-center align-items-center">
           <h6 className="fs-3">Adrese</h6>
-          <Link className="footerLink fs-5 mb-3" to="https://goo.gl/maps/hKGdCrnaC8M6sJ9e9" target="_blank">
+          <Link
+            className="footerLink fs-5 mb-3"
+            to="https://goo.gl/maps/hKGdCrnaC8M6sJ9e9"
+            target="_blank"
+          >
             Čačak : Jezdinsko Polje 11
           </Link>
-          <Link className="footerLink fs-5" to="https://goo.gl/maps/7bi5bopffmo9T1Di7" target="_blank">
+          <Link
+            className="footerLink fs-5"
+            to="https://goo.gl/maps/7bi5bopffmo9T1Di7"
+            target="_blank"
+          >
             Beograd : Ivana Milutinovića 49, Borča
           </Link>
         </article>

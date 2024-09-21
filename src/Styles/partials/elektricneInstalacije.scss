@@ -1,0 +1,14 @@
+@use './variables.scss';
+
+.uslugeElektricneInstalacije {
+    background-color: variables.$secondaryBgColor;
+
+    .ElInstalacijeHeader {
+        .tehZastitaIcon {
+            width: 120px;
+            height: 120px;
+            color: white;
+            stroke-width: 2px;
+        }
+    }
+}
