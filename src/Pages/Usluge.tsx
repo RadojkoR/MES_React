@@ -1,5 +1,5 @@
 import { Header } from "../Components/Layout";
-import { AlarmniSistemi, TehnickaZastita } from "../Components/UslugeComponents";
+import { AlarmniSistemi, Interfoni, TehnickaZastita, VideoNadzor } from "../Components/UslugeComponents";
 
 
 export default function Usluge() {
@@ -12,6 +12,8 @@ export default function Usluge() {
         />
         <TehnickaZastita />
         <AlarmniSistemi />
+        <VideoNadzor />
+        <Interfoni />
       </>
     );
 }
