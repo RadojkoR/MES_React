@@ -1,9 +1,0 @@
-@use './variables.scss';
-
-.videoNadzorCard {
-     background-color: variables.$quaternaryBgColor;
-     color: variables.$secondaryTextColor;
-     position: sticky !important;
-     top: 110px !important;
-     z-index: -1;
-}

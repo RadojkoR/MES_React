@@ -13,4 +13,31 @@
     }
 }
 
+.alarmniSistemiCard,
+.videoNadzorCard,
+.interfoniCard {
+    color: variables.$secondaryTextColor;
+    position: sticky !important;
+    top: 110px !important;
+    z-index: -2;
+}
+
+.alarmniSistemiCard {
+    background-color: variables.$tertiaryBgColor;
+}
+
+.videoNadzorCard {
+    background-color: variables.$quaternaryBgColor;
+}
+
+.interfoniCard {
+    background-color: variables.$quinaryBgColor;
+}
+
+.daljinskoOtvaranjeCard {
+    background-color: variables.$senaryBgColor;
+    color: variables.$secondaryTextColor;
+    z-index: -1;
+}
+
  
