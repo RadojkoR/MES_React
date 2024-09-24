@@ -5,10 +5,10 @@ import { ReactComponent as AlarmniSistemiIcon } from "../../Assets/icons/alarm_s
  export default function AlarmniSistemi() {
 
   return (
-    <article className="alarmniSistemiCard container-md d-flex flex-column justify-content-center align-items-center mt-5">
-      <h5 className="fs-1 mt-5 ">Alarmni sistemi</h5>
+    <article className="alarmniSistemiCard container-md d-flex flex-column justify-content-center align-items-center">
+      <h5 className="fs-1 my-5 ">Alarmni sistemi</h5>
       <div className="alarmniSistemiCardBody row align-items-center">
-        <p className="fs-4 col-lg-9 col-xl-8 p-5">
+        <p className="fs-4 col-lg-9 col-xl-8 pb-5 p-md-5">
           Zaštita objekata alarmnim sistemom predstavlja veoma efikasan vid
           zaštite od provale i krađe imovine. Alarmni sistemi danas su dostupni
           širem broju korisnika, prvenstveno zbog znatno povoljnije cene nego
@@ -25,7 +25,7 @@ import { ReactComponent as AlarmniSistemiIcon } from "../../Assets/icons/alarm_s
           smeće. Naša firma može Vam ponuditi konsultacije i savete kako bi
           projektovali sistem koji će zadovoljiti Vaše potrebe.
         </p>
-        <AlarmniSistemiIcon className="col-lg-3 col-xl-4 d-none d-md-block" />
+        <AlarmniSistemiIcon className="col-lg-3 col-xl-4 d-none d-lg-block" />
       </div>
     </article>
   );

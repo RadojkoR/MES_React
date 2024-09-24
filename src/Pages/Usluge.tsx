@@ -10,12 +10,14 @@ export default function Usluge() {
           bgVideoClassName="headerVideoUsluge"
           headerContainerClass="headerContainer"
         />
-        <TehnickaZastita />
-        <AlarmniSistemi />
-        <VideoNadzor />
-        <Interfoni />
-        <DaljinskoOtvaranjKapija />
-        <ElektricneInstalacije />
+        <section className="tehZastitaContainer">
+          <TehnickaZastita />
+          <AlarmniSistemi />
+          <VideoNadzor />
+          <Interfoni />
+          <DaljinskoOtvaranjKapija />
+          <ElektricneInstalacije />
+        </section>
       </>
     );
 }

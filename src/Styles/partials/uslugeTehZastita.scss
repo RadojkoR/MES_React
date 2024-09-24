@@ -40,4 +40,41 @@
     z-index: -1;
 }
 
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .tehZastitaContainer {
+        h4, h5 {
+            font-size: 1.8rem!important;
+        }
+        p {
+            font-size: 1.2rem!important;
+        }
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .tehZastitaContainer {
+        h4, h5 {
+            font-size: 1.5rem!important;
+            margin-bottom: 2rem!important;
+        }
+        p {
+            font-size: 1.1rem!important;
+            margin-bottom: 0.3rem!important;
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .tehZastitaContainer {
+        h4, h5 {
+            font-size: 1.1rem !important;
+        }
+        p {
+            font-size: 0.9rem !important;
+        }
+    }
+}
+
  
