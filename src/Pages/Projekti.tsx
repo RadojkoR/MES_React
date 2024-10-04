@@ -1,4 +1,5 @@
 import { Header } from "../Components/Layout";
+import { AlarmniSistemiGallery, InterfoniGallery, VideoNadzorGallery } from "../Components/projektiComponents";
 
 
 
@@ -10,7 +11,11 @@ export default function Projekti() {
           bgVideoClassName="headerVideoUsluge"
           headerContainerClass="headerContainer"
         />
-        <h1>Projekti</h1>
+        <section>
+          <AlarmniSistemiGallery />
+          <VideoNadzorGallery />
+          <InterfoniGallery />
+        </section>
       </>
     );
 }

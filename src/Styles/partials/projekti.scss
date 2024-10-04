@@ -1,0 +1,71 @@
+@use './variables.scss';
+
+
+.alarmniSistemi {
+    background-color: variables.$secondaryBgColor;
+      
+}
+
+ .carouselContainer {
+     width: 50%;
+     height: 70vh;
+
+     .carouselImg {
+         cursor: pointer;
+     }
+ }
+.modalCourousel {
+    background-color: variables.$modelCarouselBgColor;
+
+    .modalHeader {
+        background-color: variables.$secondaryBgColor;
+
+        .modalCloseBtn {
+            overflow: hidden;
+            position: relative;
+            right: 20px;
+            border: none;
+            padding: 0;
+            width: 2.5em;
+            height: 2.5em;
+            border-radius: 50%;
+            background: transparent;
+            font: inherit;
+            text-indent: 100%;
+            cursor: pointer;
+
+            &:focus {
+                outline: solid 0 transparent;
+                box-shadow: 0 0 0 2px #8ed0f9
+            }
+
+            &:hover {
+                background: rgba(29, 161, 142, .1);
+            }
+
+            &:before,
+            &:after {
+                color: variables.$tertiaryTextColor;
+                position: absolute;
+                top: 15%;
+                left: calc(50% - .0625em);
+                width: .125em;
+                height: 70%;
+                border-radius: .125em;
+                transform: rotate(45deg);
+                background: currentcolor;
+                content: '';
+            }
+
+            &:after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    .modalImg {
+        width: 45%;
+        height: auto;
+
+    }
+}
