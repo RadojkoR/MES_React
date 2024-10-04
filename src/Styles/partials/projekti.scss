@@ -1,9 +1,9 @@
 @use './variables.scss';
 
 
-.alarmniSistemi {
-    background-color: variables.$secondaryBgColor;
-      
+.alarmniSistemi,
+.interfoni {
+    background-color: variables.$secondaryBgColor;     
 }
 
  .carouselContainer {

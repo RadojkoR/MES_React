@@ -17,12 +17,12 @@ export default function InterfoniGallery() {
       img6
     ];
     return (
-      <article className="videoNadzor w-100 pb-5">
+      <article className="interfoni w-100 pb-5">
         <div className="container-md">
           <h2 className="fs-1 pb-5 pt-4 text-center">Interfoni</h2>
           <Carousel
             images={images}
-            carouselId="carouselVidoeNadzorIndicators"
+            carouselId="carouselInterfoniIndicators"
           />
         </div>
       </article>
