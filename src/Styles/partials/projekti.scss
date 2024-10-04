@@ -3,17 +3,18 @@
 
 .alarmniSistemi,
 .interfoni {
-    background-color: variables.$secondaryBgColor;     
+    background-color: variables.$secondaryBgColor;
 }
 
- .carouselContainer {
-     width: 50%;
-     height: 70vh;
+.carouselContainer {
+    width: 40rem;
+    height: 75vh;
 
-     .carouselImg {
-         cursor: pointer;
-     }
- }
+    .carouselImg {
+        cursor: pointer;
+    }
+}
+
 .modalCourousel {
     background-color: variables.$modelCarouselBgColor;
 
@@ -68,4 +69,52 @@
         height: auto;
 
     }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    // .alarmniSistemi,
+    // .interfoni {
+    //     .carouselContainer {
+    //         width: 80%;
+    //         height: 75vh;
+    //     }
+    // }
+}
+
+@media only screen and (max-width: 768px) {
+    
+        .carouselContainer {
+            width: 34rem;
+            height: 75vh;
+        }
+}
+
+@media only screen and (max-width: 576px) {
+    
+        .carouselContainer {
+            width: 29rem;
+            height: 65vh;
+        }
+}
+
+@media only screen and (max-width: 490px) {
+
+    
+        .carouselContainer {
+            width: 20rem;
+            height: 45vh;
+        }
+}
+
+@media only screen and (max-width: 360px) {
+
+        .carouselContainer {
+            width: 16rem;
+            height: 38vh;
+        }
 }

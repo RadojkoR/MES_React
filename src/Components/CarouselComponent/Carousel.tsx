@@ -34,7 +34,7 @@ export default function Carousel({images, carouselId}: CarouselProps) {
               ></button>
             ))}
           </div>
-          <div className="carousel-inner w-100 h-100">
+          <div className="carousel-inner w-100 h-100 d-flex align-items-center">
             {images.map((image, index) => (
               <div
                 key={index}
@@ -97,7 +97,7 @@ export default function Carousel({images, carouselId}: CarouselProps) {
                     className="carousel slide"
                     data-bs-ride="carousel"
                   >
-                    <div className="carousel-inner">
+                    <div className="carousel-inner w-100 h-100">
                       {images.map((image, index) => (
                         <div
                           key={index}
