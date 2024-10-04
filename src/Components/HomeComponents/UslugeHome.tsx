@@ -7,17 +7,6 @@ export default function UslugeHome() {
       <article className="uslugeHome w-100">
         <div className="container">
           <section className="py-5 row d-flex flex-column flex-md-row justify-content-between align-items-center">
-            <div className="uslugeHomeCard col-4 d-flex flex-column justify-content-center align-items-center">
-              <IconElInstalacije className="elInstalationIcon" />
-              <article className="uslugeHomeCardBody">
-                <h4 className="text-center mb-4">Elektricne Instalacije</h4>
-                <p className="uslugeHomeCardBodyTxt">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Sapiente, non deleniti alias sit vero culpa magnam vel
-                  voluptas facere neque.
-                </p>
-              </article>
-            </div>
             <article className="uslugeHomeCard col-4 d-flex flex-column justify-content-center align-items-center">
               <IconTehZastita className="elInstalationIcon" />
               <div className="uslugeHomeCardBody">
@@ -33,6 +22,24 @@ export default function UslugeHome() {
                   </li>
                 </ul>
               </div>
+            </article>
+            <article className="uslugeHomeCard col-4 d-flex flex-column justify-content-center align-items-center">
+              <IconElInstalacije className="elInstalationIcon" />
+              <article className="uslugeHomeCardBody">
+                <h4 className="text-center mb-4">Električne Instalacije</h4>
+                <ul className="uslugeHomeCardBodyTxt">
+                  <li className="list-group">
+                    - Električne instalacije slabe struje
+                  </li>
+                  <li className="list-group">
+                    - Električne instalacije srednjeg
+                  </li>
+                  <li className="list-group">
+                    - Električne intalacije niskog napona
+                  </li>
+                  <li className="list-group">- Mrežni sistemi</li>
+                </ul>
+              </article>
             </article>
             <article className="uslugeHomeCard col-4 d-flex flex-column  justify-content-center align-items-center">
               <IconSolarHouse className="elInstalationIcon" />
