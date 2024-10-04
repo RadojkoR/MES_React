@@ -65,7 +65,7 @@
     }
 
     .modalImg {
-        width: 45%;
+        width: 41rem;
         height: auto;
 
     }
@@ -92,6 +92,14 @@
             width: 34rem;
             height: 75vh;
         }
+
+        .modalCourousel {
+             .modalImg {
+                 width: 35rem;
+
+             }
+        }
+       
 }
 
 @media only screen and (max-width: 576px) {
@@ -99,6 +107,13 @@
         .carouselContainer {
             width: 29rem;
             height: 65vh;
+        }
+
+        .modalCourousel {
+            .modalImg {
+                width: 30rem;
+
+            }
         }
 }
 
@@ -109,6 +124,13 @@
             width: 20rem;
             height: 45vh;
         }
+
+        .modalCourousel {
+            .modalImg {
+                width: 24rem;
+
+            }
+        }
 }
 
 @media only screen and (max-width: 360px) {
@@ -116,5 +138,10 @@
         .carouselContainer {
             width: 16rem;
             height: 38vh;
+        }
+        .modalCourousel {
+            .modalImg {
+                width: 18rem;
+            }
         }
 }

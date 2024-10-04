@@ -91,7 +91,7 @@ export default function Carousel({images, carouselId}: CarouselProps) {
                     onClick={handleCloseModal}
                   ></button>
                 </div>
-                <div className="modal-body pt-0">
+                <div className="modal-body d-flex justify-content-center align-items-center pt-0">
                   <div
                     id="modalCarousel"
                     className="carousel slide"
@@ -114,7 +114,7 @@ export default function Carousel({images, carouselId}: CarouselProps) {
                       ))}
                     </div>
                     <button
-                      className="carousel-control-prev"
+                      className="carousel-control-prev text-danger"
                       type="button"
                       data-bs-target="#modalCarousel"
                       data-bs-slide="prev"
