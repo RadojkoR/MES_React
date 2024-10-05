@@ -10,7 +10,7 @@ export default function UslugeHome() {
             <article className="uslugeHomeCard col-4 d-flex flex-column justify-content-center align-items-center">
               <IconTehZastita className="elInstalationIcon" />
               <div className="uslugeHomeCardBody">
-                <h4 className="text-center mb-4">Tehnicka Zastita</h4>
+                <h4 className="text-center mb-4">Tehnička Zastita</h4>
                 <ul className="uslugeHomeCardBodyTxt">
                   <li className="list-group">- Alarmni sistemi</li>
                   <li className="list-group">
@@ -45,11 +45,14 @@ export default function UslugeHome() {
               <IconSolarHouse className="elInstalationIcon" />
               <div className="uslugeHomeCardBody">
                 <h4 className="text-center mb-4">Solarni Paneli</h4>
-                <p className="uslugeHomeCardBodyTxt">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Sapiente, non deleniti alias sit vero culpa magnam vel
-                  voluptas facere neque.
-                </p>
+                <ul className="uslugeHomeCardBodyTxt">
+                  <li className="list-group">- Projektovanje</li>
+                  <li className="list-group">- Montaža</li>
+                  <li className="list-group">- Obuka korisnika</li>
+                  <li className="list-group">
+                    - Uskladjivanje sa Smart Home sistemima
+                  </li>
+                </ul>
               </div>
             </article>
           </section>

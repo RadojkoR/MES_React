@@ -5,6 +5,7 @@ import Interfoni from "./Interfoni";
 import DaljinskoOtvaranjKapija from "./DaljinskoOtvaranjKapija";
 import ElektricneInstalacije from "./ElektricneInstalacije";
 import CardComponent from "./CardComponent";
+import SolarniPaneli from "./SolarniPaneli";
 
 
 export {
@@ -14,5 +15,6 @@ export {
     Interfoni, 
     DaljinskoOtvaranjKapija, 
     ElektricneInstalacije, 
-    CardComponent
+    CardComponent,
+    SolarniPaneli
 }

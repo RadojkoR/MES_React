@@ -1,5 +1,5 @@
 import { Header } from "../Components/Layout";
-import { AlarmniSistemi, DaljinskoOtvaranjKapija, ElektricneInstalacije, Interfoni, TehnickaZastita, VideoNadzor } from "../Components/UslugeComponents";
+import { AlarmniSistemi, DaljinskoOtvaranjKapija, ElektricneInstalacije, Interfoni, SolarniPaneli, TehnickaZastita, VideoNadzor } from "../Components/UslugeComponents";
 
 
 export default function Usluge() {
@@ -19,6 +19,9 @@ export default function Usluge() {
         </section>
         <section className="elInstalacijeContainer pb-5">
           <ElektricneInstalacije />
+        </section>
+        <section className="solarniPaneliContainer pb-5">
+          <SolarniPaneli />
         </section>
       </>
     );
