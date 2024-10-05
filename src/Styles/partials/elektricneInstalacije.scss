@@ -11,3 +11,27 @@
         }
     }
 }
+
+.cardComponent {
+    color: variables.$secondaryTextColor;
+    position: sticky;
+    top: 110px !important;
+    z-index: -2;
+}
+
+.elSlabeStruje {
+    background-color: variables.$tertiaryBgColor;
+}
+.elSrednjegNapona {
+    background-color: variables.$quaternaryBgColor;
+}
+
+.elniskogNapona {
+    background-color: variables.$quinaryBgColor;
+}
+
+.mrezniSistemi {
+    background-color: variables.$senaryBgColor;
+    color: variables.$secondaryTextColor;
+    z-index: -1
+}

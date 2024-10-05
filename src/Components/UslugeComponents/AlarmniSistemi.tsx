@@ -1,4 +1,3 @@
- 
 import { ReactComponent as AlarmniSistemiIcon } from "../../Assets/icons/alarm_system_icon.svg";
 
 

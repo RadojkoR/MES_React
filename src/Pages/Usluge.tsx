@@ -16,6 +16,8 @@ export default function Usluge() {
           <VideoNadzor />
           <Interfoni />
           <DaljinskoOtvaranjKapija />
+        </section>
+        <section className="elInstalacijeContainer">
           <ElektricneInstalacije />
         </section>
       </>

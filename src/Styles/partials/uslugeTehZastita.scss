@@ -15,7 +15,8 @@
 
 .alarmniSistemiCard,
 .videoNadzorCard,
-.interfoniCard {
+.interfoniCard,
+.cardComponent {
     color: variables.$secondaryTextColor;
     position: sticky !important;
     top: 110px !important;
