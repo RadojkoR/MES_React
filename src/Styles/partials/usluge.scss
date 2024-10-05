@@ -13,9 +13,19 @@
     }
 }
 
-.alarmniSistemiCard,
-.videoNadzorCard,
-.interfoniCard,
+.uslugeElektricneInstalacije {
+    background-color: variables.$secondaryBgColor;
+
+    .ElInstalacijeHeader {
+        .tehZastitaIcon {
+            width: 120px;
+            height: 120px;
+            color: white;
+            stroke-width: 2px;
+        }
+    }
+}
+
 .cardComponent {
     color: variables.$secondaryTextColor;
     position: sticky !important;
@@ -23,19 +33,23 @@
     z-index: -2;
 }
 
-.alarmniSistemiCard {
+.alarmniSistemiCard,
+.elSlabeStruje {
     background-color: variables.$tertiaryBgColor;
 }
 
-.videoNadzorCard {
+.videoNadzorCard,
+.elSrednjegNapona {
     background-color: variables.$quaternaryBgColor;
 }
 
-.interfoniCard {
+.interfoniCard,
+.elniskogNapona {
     background-color: variables.$quinaryBgColor;
 }
 
-.daljinskoOtvaranjeCard {
+.daljinskoOtvaranjeCard,
+.mrezniSistemi {
     background-color: variables.$senaryBgColor;
     color: variables.$secondaryTextColor;
     z-index: -1;
@@ -44,7 +58,8 @@
 @media only screen and (max-width: 992px) {}
 
 @media only screen and (max-width: 768px) {
-    .tehZastitaContainer {
+    .tehZastitaContainer,
+    .elInstalacijeContainer {
         h4, h5 {
             font-size: 1.8rem!important;
         }
@@ -55,7 +70,8 @@
 }
 
 @media only screen and (max-width: 490px) {
-    .tehZastitaContainer {
+    .tehZastitaContainer,
+    .elInstalacijeContainer {
         h4, h5 {
             font-size: 1.5rem!important;
             margin-bottom: 2rem!important;
@@ -68,7 +84,8 @@
 }
 
 @media only screen and (max-width: 360px) {
-    .tehZastitaContainer {
+    .tehZastitaContainer,
+    .elInstalacijeContainer {
         h4, h5 {
             font-size: 1.1rem !important;
         }

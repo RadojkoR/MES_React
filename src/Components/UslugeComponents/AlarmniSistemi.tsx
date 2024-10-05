@@ -4,7 +4,7 @@ import { ReactComponent as AlarmniSistemiIcon } from "../../Assets/icons/alarm_s
  export default function AlarmniSistemi() {
 
   return (
-    <article className="alarmniSistemiCard container-md d-flex flex-column justify-content-center align-items-center">
+    <article className="alarmniSistemiCard cardComponent container-md d-flex flex-column justify-content-center align-items-center">
       <h5 className="fs-1 my-5 ">Alarmni sistemi</h5>
       <div className="alarmniSistemiCardBody row align-items-center">
         <p className="fs-4 col-lg-9 col-xl-8 pb-5 p-md-5">

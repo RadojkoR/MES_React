@@ -3,7 +3,7 @@ import {ReactComponent as IconDaljinskoOtvaranje} from "../../Assets/icons/gate.
 
 export default function DaljinskoOtvaranjKapija() {
     return (
-      <article className="daljinskoOtvaranjeCard container-md d-flex flex-column justify-content-center align-items-center">
+      <article className="daljinskoOtvaranjeCard cardComponent container-md d-flex flex-column justify-content-center align-items-center">
         <h5 className="fs-1 my-5 ">Daljinsko Otvaranje Kapija i Vrata</h5>
         <div className="daljinskoOtvaranjeCardBody row align-items-center">
           <section className="fs-4 col-lg-9 col-xl-8 pb-5 p-md-5">
