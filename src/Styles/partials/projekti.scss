@@ -71,6 +71,19 @@
     }
 }
 
+.carouselControlBtn {
+// background-color: #8ed0f9;
+}
+
+ .carouselIcon {
+    display: inline-block;
+    width: 2.2rem;
+    height: 2.2rem;
+    color: variables.$tertiaryTextColor;
+    background-color:variables.$carouselBtnBgColor;
+
+ }
+
 @media only screen and (max-width: 1200px) {
 
 }

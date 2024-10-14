@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import { GrNext } from "react-icons/gr";
+import { GrPrevious } from "react-icons/gr";
 
 interface CarouselProps {
     images: string[],
@@ -55,22 +57,24 @@ export default function Carousel({images, carouselId}: CarouselProps) {
             data-bs-target={`#${carouselId}`}
             data-bs-slide="prev"
           >
-            <span
+            {/* <span
               className="carousel-control-prev-icon"
               aria-hidden="true"
-            ></span>
+            ></span> */}
+            <GrPrevious className="carouselIcon rounded-circle p-1" />
             <span className="visually-hidden">Previous</span>
           </button>
           <button
-            className="carousel-control-next"
+            className="carousel-control-next carouselControlBtn"
             type="button"
             data-bs-target={`#${carouselId}`}
             data-bs-slide="next"
           >
-            <span
-              className="carousel-control-next-icon"
+            {/* <span
+              className="carouselNextImg carousel-control-next-icon"
               aria-hidden="true"
-            ></span>
+            ></span> */}
+            <GrNext className="carouselIcon rounded-circle p-1" />
             <span className="visually-hidden">Next</span>
           </button>
         </div>
@@ -119,10 +123,11 @@ export default function Carousel({images, carouselId}: CarouselProps) {
                       data-bs-target="#modalCarousel"
                       data-bs-slide="prev"
                     >
-                      <span
+                      {/* <span
                         className="carousel-control-prev-icon"
                         aria-hidden="true"
-                      ></span>
+                      ></span> */}
+                      <GrPrevious className="carouselIcon rounded-circle p-1" />
                       <span className="visually-hidden">Previous</span>
                     </button>
                     <button
@@ -131,10 +136,11 @@ export default function Carousel({images, carouselId}: CarouselProps) {
                       data-bs-target="#modalCarousel"
                       data-bs-slide="next"
                     >
-                      <span
-                        className="carousel-control-next-icon"
+                      {/* <span
+                        className="carouselNextImg carousel-control-next-icon"
                         aria-hidden="true"
-                      ></span>
+                      ></span> */}
+                      <GrNext className="carouselIcon rounded-circle p-1" />
                       <span className="visually-hidden">Next</span>
                     </button>
                   </div>
