@@ -7,7 +7,7 @@ export default function ContactForm(){
             <input
               type="text"
               className="form-control text-light border-secondary bg-transparent border-0 border-bottom rounded-0"
-              placeholder="Name"
+              placeholder="Ime"
             />
           </div>
           <div className="mb-4">
@@ -20,7 +20,7 @@ export default function ContactForm(){
         <div className="mb-4">
           <textarea
             className="form-control text-light border-secondary bg-transparent border-0 border-bottom rounded-0"
-            placeholder="Poruka"
+            placeholder="Tekst"
             rows={5}
           />
         </div>
