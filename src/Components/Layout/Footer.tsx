@@ -29,7 +29,7 @@ export default function Footer() {
       </ul>
       <section className="row justify-content-between align-items-center py-5 flex-column flex-md-row mb-5">
         <article className="col-md-6 d-flex flex-column justify-content-center align-items-center">
-          <h4 className="fs-3">Kontakt</h4>
+          <h3 className="fs-3">Kontakt</h3>
           <Link className="footerLink fs-5 mb-3 fw-light" to="tel:+38132332216">
             Tel/Fax: +38132332216
           </Link>
@@ -38,7 +38,7 @@ export default function Footer() {
           </Link>
         </article>
         <article className="col-md-6 d-flex flex-column justify-content-center align-items-center">
-          <h4 className="fs-3">Adrese</h4>
+          <h3 className="fs-3">Adrese</h3>
           <Link
             className="footerLink fs-5 mb-3 fw-lighter"
             to="https://goo.gl/maps/hKGdCrnaC8M6sJ9e9"
