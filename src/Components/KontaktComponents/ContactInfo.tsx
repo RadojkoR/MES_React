@@ -3,7 +3,7 @@ import { TfiEmail } from "react-icons/tfi";
 
 export default function ContactInfo() {
   return (
-    <div className="contactInfo p-5">
+    <div className="contactInfo px-xxl-5 px-xl-4 px-lg-3 my-5">
       <div>
         <h4 className="fs-1 mb-4">Kontaktirajte nas</h4>
         <p className="fs-4 fw-lighter">

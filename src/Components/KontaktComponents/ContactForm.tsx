@@ -1,7 +1,7 @@
 
 export default function ContactForm(){
     return (
-      <form className="contactForm bg-dark text-secondary border-secondary p-5 my-5 d-flex flex-column">      
+      <form className="contactForm bg-dark text-secondary border-secondary p-3 p-lg-5 my-5 d-flex flex-column">      
           <div className="mb-4">
             <input
               type="text"
@@ -25,9 +25,9 @@ export default function ContactForm(){
         </div>
         <button
           type="submit"
-          className="btn myCustomBtn btn-lg mt-5 mx-auto"
+          className="btn myCustomBtn mt-3 mt-lg-5 mx-auto"
         >
-          Posalji
+          Pošalji
         </button>
       </form>
     );

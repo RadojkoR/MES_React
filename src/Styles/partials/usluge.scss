@@ -63,7 +63,8 @@
 
 @media only screen and (max-width: 768px) {
     .tehZastitaContainer,
-    .elInstalacijeContainer {
+    .elInstalacijeContainer, 
+    .solarniPaneliContainer {
         h4, h5 {
             font-size: 1.8rem!important;
         }
@@ -75,7 +76,8 @@
 
 @media only screen and (max-width: 490px) {
     .tehZastitaContainer,
-    .elInstalacijeContainer {
+    .elInstalacijeContainer,
+    .solarniPaneliContainer {
         h4, h5 {
             font-size: 1.5rem!important;
             margin-bottom: 2rem!important;
@@ -89,7 +91,8 @@
 
 @media only screen and (max-width: 360px) {
     .tehZastitaContainer,
-    .elInstalacijeContainer {
+    .elInstalacijeContainer,
+    .solarniPaneliContainer {
         h4, h5 {
             font-size: 1.1rem !important;
         }

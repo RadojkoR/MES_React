@@ -11,12 +11,12 @@ export default function Kontakt() {
           bgVideoClassName="headerVideoKontakt"
           headerContainerClass="headerContainer"
         />
-        <section className="container-md my-5">
+        <section className="container-xxl my-5">
           <div className="row mx-auto mb-5">
-            <article className="col-6">
+            <article className="col-12 col-lg-6">
               <ContactInfo />
             </article>
-            <article className="col-6">
+            <article className="col-12 col-sm-11 col-md-8 col-lg-6 mx-auto">
               <ContactForm />
             </article>
           </div>
