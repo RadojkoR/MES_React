@@ -35,22 +35,25 @@
 
 .alarmniSistemiCard,
 .elSlabeStruje,
-.solarniPaneli {
+.projektovanjeSolarniPaneli {
     background-color: variables.$tertiaryBgColor;
 }
 
 .videoNadzorCard,
-.elSrednjegNapona {
+.elSrednjegNapona,
+.montazaSolarniPaneli {
     background-color: variables.$quaternaryBgColor;
 }
 
 .interfoniCard,
-.elniskogNapona {
+.elniskogNapona,
+.obukaSolarniPaneli {
     background-color: variables.$quinaryBgColor;
 }
 
 .daljinskoOtvaranjeCard,
-.mrezniSistemi {
+.mrezniSistemi,
+.smartHomeSolarniPaneli {
     background-color: variables.$senaryBgColor;
     color: variables.$secondaryTextColor;
     z-index: -1;

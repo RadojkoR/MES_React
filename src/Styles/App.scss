@@ -1,3 +1,4 @@
+@use './partials/customBootstrap.scss';
 @use './partials/variables.scss';
 @use './partials/global.scss';
 @use './partials/nav.scss';
@@ -7,4 +8,5 @@
 @use './partials/onamaHome.scss';
 @use './partials/usluge.scss';
 @use './partials/projekti.scss';
+@use './partials/kontakt.scss';
 

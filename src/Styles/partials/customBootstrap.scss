@@ -1,0 +1,16 @@
+@use '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@use './variables.scss';
+
+
+.myCustomBtn {
+    @extend bootstrap, .btn-primary !optional;
+    background-color: variables.$submitBtnBgColor;
+    border: none;
+    width: 25%;
+    min-width: 6rem!important;
+
+    &:hover, &:focus {
+        background-color: darken($color: variables.$submitBtnBgColor, $amount: 10);
+    }       
+}

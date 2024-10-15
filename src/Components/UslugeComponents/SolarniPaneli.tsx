@@ -4,14 +4,26 @@ import CardComponent from "./CardComponent";
 export default function SolarniPaneli() {
   const usluge = [
     {
-      title: "Solarni Paneli",
-      class: "solarniPaneli",
-    body: `Projektovanje: Naš tim stručnjaka pažljivo analizira vaše potrebe i uslove na terenu kako bi dizajnirao optimalni sistem solarnih panela koji će vam pružiti maksimalnu efikasnost i uštedu energije.
-    Montaža: Koristimo najkvalitetnije materijale i najnovije tehnologije za montažu solarnih panela, osiguravajući dugotrajnost i pouzdanost sistema. Naši tehničari su visoko obučeni i posvećeni pružanju vrhunske usluge.
-    Obuka korisnika: Verujemo da je edukacija ključna za maksimalno iskorišćenje solarne energije. Naši stručnjaci će vas detaljno obučiti kako da pravilno koristite i održavate vaš sistem solarnih panela, kako biste postigli najbolje rezultate.
-    Usklađivanje sa smart home sistemima: Integracija solarnih panela sa vašim pametnim domom omogućava vam da pratite i upravljate potrošnjom energije na daljinu, čime dodatno povećavate efikasnost i uštedu. Naša firma nudi kompletna rešenja za povezivanje solarnih panela sa različitim smart home platformama.
-    Specijalizovani smo za instalacije solarnih panela, pružajući kompletna rešenja za stabilnu i brzu povezanost. Naša posvećenost kvalitetu i sigurnosti garantuje da ćete dobiti pouzdan i efikasan sistem koji će vam služiti dugi niz godina.`,
+      title: "Projektovanje",
+      class: "projektovanjeSolarniPaneli",
+      body: `Naš tim stručnjaka pažljivo analizira vaše potrebe i uslove na terenu kako bi dizajnirao optimalni sistem solarnih panela koji će vam pružiti maksimalnu efikasnost i uštedu energije.`,
     },
+    {
+      title: "Montaza",
+      class: "montazaSolarniPaneli",
+      body: `Koristimo najkvalitetnije materijale i najnovije tehnologije za montažu solarnih panela, osiguravajući dugotrajnost i pouzdanost sistema. Naši tehničari su visoko obučeni i posvećeni pružanju vrhunske usluge.`,
+    },
+    {
+      title: "Obuka Korisnika",
+      class: "obukaSolarniPaneli",
+      body: `OVerujemo da je edukacija ključna za maksimalno iskorišćenje solarne energije. Naši stručnjaci će vas detaljno obučiti kako da pravilno koristite i održavate vaš sistem solarnih panela, kako biste postigli najbolje rezultate.`
+    },
+    {
+      title: "Smart Home Sistemi",
+      class: "smartHomeSolarniPaneli",
+      body: `Integracija solarnih panela sa vašim pametnim domom omogućava vam da pratite i upravljate potrošnjom energije na daljinu, čime dodatno povećavate efikasnost i uštedu. Naša firma nudi kompletna rešenja za povezivanje solarnih panela sa različitim smart home platformama.
+    Specijalizovani smo za instalacije solarnih panela, pružajući kompletna rešenja za stabilnu i brzu povezanost. Naša posvećenost kvalitetu i sigurnosti garantuje da ćete dobiti pouzdan i efikasan sistem koji će vam služiti dugi niz godina.`
+    }
   ];
   return (
     <>

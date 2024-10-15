@@ -13,7 +13,7 @@
             text-decoration: none;
             color: #f9f9f9 !important;
             transition: all 0.2s ease;
-            &:hover {
+            &:hover, &:focus {
                 color: variables.$hoverColor !important;
             }
         }
@@ -22,7 +22,7 @@
     .footerLink {
         text-decoration: none;
         color: variables.$bodyTextColor;
-        &:hover {
+        &:hover, &:focus {
             color: variables.$hoverColor;
             transition: all 0.2s ease;
         }
@@ -32,7 +32,7 @@
         text-decoration: none;
         color: #fb8122;
         transition: all 0.2s ease;
-        &:hover {
+        &:hover, &:focus {
             color: variables.$hoverColor;
         }
     }
