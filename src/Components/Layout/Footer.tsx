@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="mainFooter pt-2 pb-3 overflow-hidden">
-      <h5 className="text-center mt-5 fs-1">Prati nas na drustvenim mrezama</h5>
+      <h2 className="text-center mt-5 fs-1">Prati nas na drustvenim mrezama</h2>
       <ul className="list-group list-group-horizontal fs-1 justify-content-center align-items-center">
         <li className="footerHrLine col-4 col-sm-5"></li>
         <li className="footerSocIconLi list-group-item bg-transparent border-0">
