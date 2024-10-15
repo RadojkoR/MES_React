@@ -9,7 +9,7 @@ export default function TehnickaZastita() {
               <IconTehZastita className="tehZastitaIcon" />
               <div className="">
                 <h4 className="text-center mb-4 fs-1 ">Tehnicka Zastita</h4>
-                <p className="fs-4">
+                <p className="fs-4 fw-lighter">
                   Tehnička zaštita uključuje alarmne sisteme, video nadzor i
                   kontrolu pristupa za potpunu sigurnost vašeg objekta. Takođe
                   nudimo interfonske i video-interfonske sisteme, kao i

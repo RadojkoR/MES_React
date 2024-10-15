@@ -37,7 +37,7 @@ export default function ElektricneInstalacije() {
                   <h4 className="text-center mb-4 fs-1 ">
                     Elektricne Instalacije
                   </h4>
-                  <p className="fs-4">
+                  <p className="fs-4 fw-lighter">
                     Električne instalacije čine osnovu svakog objekta,
                     omogućavajući bezbedno korišćenje električne energije. Naša
                     firma nudi projektovanje, ugradnju i održavanje instalacija
@@ -52,7 +52,7 @@ export default function ElektricneInstalacije() {
           </div>
         </article>
         {usluge.map((usluge, index) => (
-            <CardComponent usluge={usluge} key={index} />
+          <CardComponent usluge={usluge} key={index} />
         ))}
       </>
     );

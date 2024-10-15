@@ -27,27 +27,27 @@ export default function Footer() {
         </li>
         <li className="footerHrLine col-4 col-sm-5"></li>
       </ul>
-      <section className="row justify-content-between align-items-center py-5 flex-column flex-md-row">
-        <article className="col-md-6 d-flex flex-column justify-content-center align-items-center mb-5">
+      <section className="row justify-content-between align-items-center py-5 flex-column flex-md-row mb-5">
+        <article className="col-md-6 d-flex flex-column justify-content-center align-items-center">
           <h6 className="fs-3">Kontakt</h6>
-          <Link className="footerLink fs-5 mb-3" to="tel:+38132332216">
+          <Link className="footerLink fs-5 mb-3 fw-light" to="tel:+38132332216">
             Tel/Fax: +38132332216
           </Link>
-          <Link className="footerLink fs-5" to="tel:+381641837109">
+          <Link className="footerLink fs-5 fw-light" to="tel:+381641837109">
             Tel/Fax: +381641837109
           </Link>
         </article>
         <article className="col-md-6 d-flex flex-column justify-content-center align-items-center">
           <h6 className="fs-3">Adrese</h6>
           <Link
-            className="footerLink fs-5 mb-3"
+            className="footerLink fs-5 mb-3 fw-lighter"
             to="https://goo.gl/maps/hKGdCrnaC8M6sJ9e9"
             target="_blank"
           >
             Čačak : Jezdinsko Polje 11
           </Link>
           <Link
-            className="footerLink fs-5"
+            className="footerLink fs-5 fw-lighter"
             to="https://goo.gl/maps/7bi5bopffmo9T1Di7"
             target="_blank"
           >
@@ -55,7 +55,7 @@ export default function Footer() {
           </Link>
         </article>
       </section>
-      <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center mt-5">
+      <section className="d-flex flex-column flex-sm-row align-items-center justify-content-center pt-5">
         <p>Copyright © 2024 All Rights Reserved M E S &emsp;</p>
         <p>
           Powered by &nbsp;

@@ -71,22 +71,22 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="menuContainer navbar-nav ms-auto">
             <li className="menuItem nav-item d-flex justify-content-center">
-              <NavLink className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/" >
+              <NavLink end className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/" >
                 Početna
               </NavLink>
             </li>
-            <li className="menuItem nav-item d-flex justify-content-center">
-              <NavLink className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/usluge" >
+            <li  className="menuItem nav-item d-flex justify-content-center">
+              <NavLink end className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/usluge" >
                 Usluge
               </NavLink>
             </li>
             <li className="menuItem nav-item d-flex justify-content-center">
-              <NavLink className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/projekti" >
+              <NavLink end className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/projekti" >
                 Projekti
               </NavLink>
             </li>
             <li className="menuItem nav-item d-flex justify-content-center">
-              <NavLink className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/kontakt" >
+              <NavLink end className={({ isActive }) => `menuLink nav-link text-light ${isActive ? "active" : ""}` } to="/kontakt" >
                 Kontakt
               </NavLink>
             </li>

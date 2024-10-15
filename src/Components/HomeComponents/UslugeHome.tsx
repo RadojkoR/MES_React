@@ -11,7 +11,7 @@ export default function UslugeHome() {
               <IconTehZastita className="elInstalationIcon" />
               <div className="uslugeHomeCardBody">
                 <h4 className="text-center mb-4">Tehnička Zastita</h4>
-                <ul className="uslugeHomeCardBodyTxt">
+                <ul className="uslugeHomeCardBodyTxt fw-light">
                   <li className="list-group">- Alarmni sistemi</li>
                   <li className="list-group">
                     - Video nadzor, kontrola pristupa
@@ -27,7 +27,7 @@ export default function UslugeHome() {
               <IconElInstalacije className="elInstalationIcon" />
               <article className="uslugeHomeCardBody">
                 <h4 className="text-center mb-4">Električne Instalacije</h4>
-                <ul className="uslugeHomeCardBodyTxt">
+                <ul className="uslugeHomeCardBodyTxt fw-light">
                   <li className="list-group">
                     - Električne instalacije slabe struje
                   </li>
@@ -45,7 +45,7 @@ export default function UslugeHome() {
               <IconSolarHouse className="elInstalationIcon" />
               <div className="uslugeHomeCardBody">
                 <h4 className="text-center mb-4">Solarni Paneli</h4>
-                <ul className="uslugeHomeCardBodyTxt">
+                <ul className="uslugeHomeCardBodyTxt fw-light">
                   <li className="list-group">- Projektovanje</li>
                   <li className="list-group">- Montaža</li>
                   <li className="list-group">- Obuka korisnika</li>

@@ -22,14 +22,18 @@
         padding: 20px 30px;
         text-transform: uppercase;
 
-        .menuLink:hover,
-        .menuLink:focus {
+        .menuLink:hover {
             color: variables.$hoverColor !important;
         }
-
+        
+        .menuLink:focus:not(.active) {
+            color: variables.$hoverColor !important;
+        }
         .active {
             color: variables.$activeClass!important;
         }
+
+        
     }
 
     .navbar-toggler:focus {
@@ -43,14 +47,8 @@
     }
 }
 
- .mainNav.hide {
-     transform: translateY(-100%);
- }
 
- .mainNav.show {
-     transform: translateY(0);
- }
- 
+
 
  @media only screen and (max-width: 576px) {
     .mainNav {

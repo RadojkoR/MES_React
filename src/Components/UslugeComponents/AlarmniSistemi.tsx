@@ -7,7 +7,7 @@ import { ReactComponent as AlarmniSistemiIcon } from "../../Assets/icons/alarm_s
     <article className="alarmniSistemiCard cardComponent container-md d-flex flex-column justify-content-center align-items-center">
       <h5 className="fs-1 my-5 ">Alarmni sistemi</h5>
       <div className="alarmniSistemiCardBody row align-items-center">
-        <p className="fs-4 col-lg-9 col-xl-8 pb-5 p-md-5">
+        <p className="fs-4 col-lg-9 col-xl-8 pb-5 p-md-5 fw-light">
           Zaštita objekata alarmnim sistemom predstavlja veoma efikasan vid
           zaštite od provale i krađe imovine. Alarmni sistemi danas su dostupni
           širem broju korisnika, prvenstveno zbog znatno povoljnije cene nego

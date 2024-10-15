@@ -34,7 +34,7 @@ export default function SolarniPaneli() {
               <IconSolarPanel className="tehZastitaIcon mb-3" />
               <div className="">
                 <h4 className="text-center mb-4 fs-1 ">Solarni Paneli</h4>
-                <p className="fs-4">
+                <p className="fs-4 fw-lighter">
                   Solarni paneli čine osnovu svakog objekta, omogućavajući
                   bezbedno korišćenje solarne energije. Naša firma nudi
                   projektovanje, montažu, obuku korisnika i usklađivanje sa
