@@ -16,14 +16,15 @@ export default function Kontakt() {
           <div className="container-md row mx-auto">
             <article className="col-6">
               <h1 className="text-center">Kontakt Informacije</h1>
-              
-              <Maps />
             </article>
             <article className="col-6">
               <h1 className="text-center">Kontakt Forma</h1>
               <ContactForm />
             </article>
           </div>
+          <article className="row">
+            <Maps />
+          </article>
         </section>
       </>
     );
