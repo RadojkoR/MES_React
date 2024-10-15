@@ -2,6 +2,8 @@
 
 
 body {
+    font-family: variables.$font-primary;
     background-color: variables.$bodyBgColor;
     color: variables.$bodyTextColor;
+    letter-spacing: 0.04rem
 }

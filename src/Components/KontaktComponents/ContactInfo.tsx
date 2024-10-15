@@ -4,41 +4,47 @@ import { Link } from "react-router-dom";
 
 export default function ContactInfo() {
   return (
-    <div className="p-5">
+    <div className="contactInfo p-5">
       <div>
-        <h4>Kontaktirajte nas</h4>
-        <p>
+        <h4 className="fs-1 mb-4">Kontaktirajte nas</h4>
+        <p className="fs-4 fw-lighter">
           Uvek smo otvoreni za saradnju sa novim klijentima. Ako ste
           zainteresovani za rad sa nama, slobodno nas kontaktirajte na jedan od
-          sledećih načina
+          sledećih načina.
         </p>
       </div>
-      <div className="contactPhone mt-5">
-        <h5 className="d-flex align-items-center">
+      <div className="contactPhone d-flex mt-5">
+        <div>
           <FiPhoneOutgoing className="contactIcon me-5" />
-          Telefoni
-        </h5>
-        <div className="d-flex flex-column align-items-center mt-4">
-          <Link className="contactLink fs-5 mb-3" to="tel:+38132332216">
-            Tel/Fax: +38132332216
-          </Link>
-          <Link className="contactLink  fs-5" to="tel:+381641837109">
-            Mob: +381641837109
-          </Link>
+        </div>
+        <div>
+          <h5>Telefoni</h5>
+          <div className="d-flex flex-column mt-4">
+            <a
+              href="tel:+38132332216"
+              className="contactLink fs-5 mb-3 fw-lighter"
+            >
+              Tel/Fax: +38132332216
+            </a>
+            <a href="tel:+381641837109" className="contactLink fw-lighter fs-5">
+              Mob: +381641837109
+            </a>
+          </div>
         </div>
       </div>
-      <div className="contactPhone mt-5">
-        <h5 className="d-flex align-items-center">
+      <div className="contactPhone d-flex mt-5">
+        <div>
           <TfiEmail className="contactIcon me-5" />
-          Email
-        </h5>
-        <div className="d-flex flex-column align-items-center mt-4">
-          <Link
-            className="contactLink fs-5 mb-3"
-            to="gradimirmes@gmail.com"
+        </div>
+
+        <div className="d-flex flex-column">
+          <h5>Email</h5>
+          <a
+            href="mailto:gradimirmes@gmail.com"
+            className="contactLink fs-5 mt-4 fw-lighter"
           >
             Email: gradimirmes@gmail.com
-          </Link>
+          </a>
         </div>
       </div>
     </div>

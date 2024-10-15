@@ -11,15 +11,12 @@ export default function Kontakt() {
           bgVideoClassName="headerVideoKontakt"
           headerContainerClass="headerContainer"
         />
-        <h1 className="text-center">Kontakt</h1>
-        <section className="row">
-          <div className="container-md row mx-auto">
+        <section className="row my-5">
+          <div className="container-md row mx-auto mb-5">
             <article className="col-6">
-              <h1 className="text-center">Kontakt Informacije</h1>
               <ContactInfo />
             </article>
             <article className="col-6">
-              <h1 className="text-center">Kontakt Forma</h1>
               <ContactForm />
             </article>
           </div>
