@@ -1,6 +1,5 @@
 import { FiPhoneOutgoing } from "react-icons/fi";
 import { TfiEmail } from "react-icons/tfi";
-import { Link } from "react-router-dom";
 
 export default function ContactInfo() {
   return (
