@@ -1,4 +1,4 @@
-import { ContactForm, Maps } from "../Components/KontaktComponents";
+import { ContactForm, ContactInfo, Maps } from "../Components/KontaktComponents";
 import { Header } from "../Components/Layout";
 
 
@@ -16,6 +16,7 @@ export default function Kontakt() {
           <div className="container-md row mx-auto">
             <article className="col-6">
               <h1 className="text-center">Kontakt Informacije</h1>
+              <ContactInfo />
             </article>
             <article className="col-6">
               <h1 className="text-center">Kontakt Forma</h1>
