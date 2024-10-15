@@ -1,8 +1,7 @@
 
 export default function ContactForm(){
     return (
-      <form className="contactForm bg-dark text-secondary border-secondary p-5 my-5 d-flex flex-column">
-       
+      <form className="contactForm bg-dark text-secondary border-secondary p-5 my-5 d-flex flex-column">      
           <div className="mb-4">
             <input
               type="text"
