@@ -80,3 +80,19 @@
     position: relative;
 }
 
+@media only screen and (max-width: 1200px) {
+    .bgHeaderHome {
+        background-image: url('../../Assets/header-md.jpg');
+    }
+    .bgHeaderUsluge, .bgHeaderKontakt {
+         background-image: url('../../Assets/imgHeaderUsluge-md.webp');
+    }
+        
+}
+
+@media only screen and (max-width: 768px) {
+    .bgHeaderHome, .bgHeaderUsluge, .bgHeaderKontakt {
+        background-image: url('../../Assets/imgHeaderSm.jpg');
+    }
+        
+}
